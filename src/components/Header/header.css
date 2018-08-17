@@ -1,0 +1,46 @@
+.App-header {
+    background: #24292e;
+    height: 60px;
+    margin-bottom: 1em;
+}
+header svg {
+    fill: #fff;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+header .content a {
+    color: #fff;
+    margin: 1em;
+}
+.content input {
+    background: #484c51;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #929a9d;
+    font-size: 12px;
+    width: 275px;
+    height: 30px;
+}
+.content img {
+    height: 18px;
+    width: 17px;
+}
+.content .nextTo {
+    padding: 6px;
+    height: 30px;
+    width: 30px;
+    background: #484c51;
+}
+.caret {
+    border: 4px solid #fff;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}

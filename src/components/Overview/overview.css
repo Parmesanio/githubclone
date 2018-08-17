@@ -1,0 +1,65 @@
+#overview {
+    height: 100%;
+    width: 55%;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+}
+#overview a:not(:first-child) {
+    margin: 1em;
+}
+#overview a {
+    border-bottom: 2px solid transparent;
+    padding: 10px;
+    transition: all 0.35s;
+}
+#overview a:hover {
+    border-color: slategray;
+}
+#overview hr {
+    margin: 0.7em;
+}
+#overview p {
+    width: 50%;
+    display: inline-block;
+}
+#overview p:nth-child(2) {
+    text-align: right;
+}
+.repo {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: 45%;
+    display: inline-block;
+    margin: 0.5em;
+    height: 120px;
+    position: relative;
+    padding: 1em;
+}
+.repo p {
+    margin: 1em;
+}
+#overview .circle {
+    background: #f1e05a;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+#overview .language {
+    position: absolute;
+    bottom: 11px;
+    left: 35px;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+p#contribute {
+    height: 100%;
+    background:url('./img/contribute.png') no-repeat;
+    width: 100%;
+    margin-top: 2em;
+}
